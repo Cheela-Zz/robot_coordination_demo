@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "source": "local-llm",
+  "kind": "matched-study-trial",
+  "id": "family-08-m2-r1",
+  "familyId": "family-08",
+  "m": 2,
+  "rotation": 1,
+  "planHash": "0685ed8a79c9b7c3d9ea5ea6ee4980ed1d1a361209d89b1548d5383852a7dd41",
+  "scenario": {
+    "width": 17,
+    "height": 13,
+    "obstacles": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        16,
+        3
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    "robots": [
+      [
+        15,
+        1
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        14,
+        1
+      ]
+    ],
+    "goals": [
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        15,
+        11
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "costs": [
+      [
+        15,
+        9,
+        10,
+        13,
+        20,
+        15
+      ],
+      [
+        6,
+        4,
+        13,
+        6,
+        11,
+        10
+      ],
+      [
+        9,
+        5,
+        22,
+        15,
+        12,
+        3
+      ],
+      [
+        7,
+        7,
+        10,
+        5,
+        12,
+        13
+      ],
+      [
+        4,
+        8,
+        17,
+        10,
+        7,
+        6
+      ],
+      [
+        14,
+        8,
+        11,
+        12,
+        19,
+        14
+      ]
+    ],
+    "initial": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5
+    ],
+    "m": 2,
+    "id": "family-08-m2-r1",
+    "name": "family-08, m=2",
+    "description": "Matched six-robot exchange; unique beneficial reassignment."
+  },
+  "scenarioId": "family-08-m2-r1",
+  "model": "gemma2:2b",
+  "modelInfo": {
+    "name": "gemma2:2b",
+    "model": "gemma2:2b",
+    "modified_at": "2026-09-22T18:30:51.7517873-04:00",
+    "size": 1629518495,
+    "digest": "8ccf136fdd5298f3ffe2d69862750ea7fb56555fa4d5b18c04e3fa4d82ee09d7",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gemma2",
+      "families": [
+        "gemma2"
+      ],
+      "parameter_size": "2.6B",
+      "quantization_level": "Q4_0",
+      "context_length": 8192,
+      "embedding_length": 2304
+    },
+    "capabilities": [
+      "completion"
+    ]
+  },
+  "promptVersion": "matched-six-agent-v2",
+  "localOnly": true,
+  "startedAt": "2026-09-22T23:38:16.657234+00:00",
+  "agents": [
+    {
+      "agentId": "A",
+      "prompt": "You are robot A. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81752
+      },
+      "goal": "B",
+      "rawContent": "{\"goal\": \"B\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:16.8078733Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\": \\\"B\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":118020400,\"load_duration\":2410300,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":63853000,\"eval_count\":7,\"eval_duration\":29431000}",
+      "error": null,
+      "durationMs": 151
+    },
+    {
+      "agentId": "B",
+      "prompt": "You are robot B. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81753
+      },
+      "goal": "B",
+      "rawContent": "{\"goal\":\"B\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:16.9166577Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\":\\\"B\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":88113500,\"load_duration\":2158500,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":41716000,\"eval_count\":6,\"eval_duration\":23516000}",
+      "error": null,
+      "durationMs": 107
+    },
+    {
+      "agentId": "C",
+      "prompt": "You are robot C. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81754
+      },
+      "goal": "C",
+      "rawContent": "{\"goal\": \"C\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:17.0418675Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\": \\\"C\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":89412400,\"load_duration\":1810400,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":41148000,\"eval_count\":7,\"eval_duration\":27670000}",
+      "error": null,
+      "durationMs": 124
+    },
+    {
+      "agentId": "D",
+      "prompt": "You are robot D. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81755
+      },
+      "goal": "D",
+      "rawContent": "{\"goal\": \"D\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:17.166254Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\": \\\"D\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":90375600,\"load_duration\":1743900,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":41369000,\"eval_count\":7,\"eval_duration\":27610000}",
+      "error": null,
+      "durationMs": 123
+    },
+    {
+      "agentId": "E",
+      "prompt": "You are robot E. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81756
+      },
+      "goal": "E",
+      "rawContent": "{\"goal\":\"E\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:17.3040827Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\":\\\"E\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":103369300,\"load_duration\":1198000,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":57837000,\"eval_count\":6,\"eval_duration\":23883000}",
+      "error": null,
+      "durationMs": 136
+    },
+    {
+      "agentId": "F",
+      "prompt": "You are robot F. Select one goal for yourself in a single simultaneous goal-assignment decision.\nAll six robots use the same local language model. Each receives this complete cost table and its own robot identity. Decisions are independent: you cannot communicate, see other responses, or revise your response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 15, 9, 10, 13, 20, 15\nB: 6, 4, 13, 6, 11, 10\nC: 9, 5, 22, 15, 12, 3\nD: 7, 7, 10, 5, 12, 13\nE: 4, 8, 17, 10, 7, 6\nF: 14, 8, 11, 12, 19, 14\nInitial goal assignment: A=C, B=D, C=A, D=B, E=E, F=F\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only your selected goal, for example {\"goal\":\"A\"}. Allowed goal values: A, B, C, D, E, F. Do not choose for other robots and do not include explanatory text.",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 256,
+        "seed": 81757
+      },
+      "goal": "C",
+      "rawContent": "{\"goal\": \"C\"}",
+      "rawResponse": "{\"model\":\"gemma2:2b\",\"created_at\":\"2026-09-22T23:38:17.4445626Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goal\\\": \\\"C\\\"}\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":105964600,\"load_duration\":1746500,\"prompt_eval_count\":457,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":58203000,\"eval_count\":7,\"eval_duration\":27707000}",
+      "error": null,
+      "durationMs": 139
+    }
+  ],
+  "choices": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    2
+  ],
+  "status": "completed",
+  "result": {
+    "assignment": [
+      2,
+      3,
+      0,
+      1,
+      4,
+      5
+    ],
+    "requested": [
+      1,
+      1,
+      2,
+      3,
+      4,
+      2
+    ],
+    "success": false,
+    "reason": "Conflicting choices: more than one robot chose the same goal.",
+    "participants": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "gains": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "beforeTotal": 53,
+    "afterTotal": 53,
+    "beforeMakespan": 14,
+    "afterMakespan": 14
+  },
+  "completedAt": "2026-09-22T23:38:17.446523+00:00",
+  "durationMs": 780
+}
