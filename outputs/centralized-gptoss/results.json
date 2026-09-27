@@ -1,0 +1,43 @@
+{
+  "model": "gpt-oss:20b",
+  "mode": "centralized",
+  "thinking": "medium",
+  "options": {
+    "temperature": 1.0,
+    "num_ctx": 10240,
+    "num_predict": 8192,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0
+  },
+  "conditions": {
+    "2": {
+      "trials": 12,
+      "successes": 10,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.9722222222222222,
+      "participantAccuracy": 0.8333333333333334
+    },
+    "3": {
+      "trials": 12,
+      "successes": 7,
+      "invalidResponses": 1,
+      "truncatedResponses": 1,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.8611111111111112,
+      "participantAccuracy": 0.7777777777777778
+    },
+    "4": {
+      "trials": 12,
+      "successes": 10,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.9722222222222222,
+      "participantAccuracy": 0.9166666666666666
+    }
+  }
+}

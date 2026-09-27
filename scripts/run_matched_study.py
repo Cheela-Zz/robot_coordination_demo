@@ -25,12 +25,12 @@ class NoRedirect(HTTPRedirectHandler):
         raise RuntimeError("Redirect refused: inference must stay on localhost.")
 
 
-def request(endpoint, body=None):
+def request(endpoint, body=None, timeout=120):
     opener = build_opener(ProxyHandler({}), NoRedirect())
     payload = json.dumps(body).encode() if body is not None else None
     req = Request("http://127.0.0.1:11434" + endpoint, data=payload,
                   headers={"Content-Type": "application/json"})
-    with opener.open(req, timeout=120) as response:
+    with opener.open(req, timeout=timeout) as response:
         raw = response.read().decode("utf-8")
     value = json.loads(raw)
     if value.get("error"):
@@ -151,10 +151,15 @@ def run_one(trial, plan, path):
         prompt = trial["prompts"][index]
         agent = {"agentId": LABELS[index], "prompt": prompt, "options": options,
                  "goal": None, "rawContent": None, "rawResponse": None, "error": None}
+        if "think" in plan:
+            agent["think"] = plan["think"]
         start = time.monotonic()
         try:
-            value, raw = request("/api/chat", {"model": record["model"], "messages": [{"role": "user", "content": prompt}],
-                                               "stream": False, "format": "json", "options": options, "keep_alive": "10m"})
+            payload = {"model": record["model"], "messages": [{"role": "user", "content": prompt}],
+                       "stream": False, "format": "json", "options": options, "keep_alive": "10m"}
+            if "think" in plan:
+                payload["think"] = plan["think"]
+            value, raw = request("/api/chat", payload, timeout=plan.get("requestTimeoutSeconds", 120))
             agent["rawResponse"] = raw
             agent["rawContent"] = value.get("message", {}).get("content")
             if value.get("done") is not True or value.get("done_reason") == "length":

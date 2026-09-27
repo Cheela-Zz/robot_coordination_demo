@@ -1,0 +1,33 @@
+{
+  "model": "deepseek-r1:14b",
+  "mode": "independent",
+  "conditions": {
+    "2": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 21,
+      "truncatedResponses": 21,
+      "duplicateGoals": 1,
+      "selfCostCompliance": 0.6388888888888888,
+      "participantAccuracy": 0.3333333333333333
+    },
+    "3": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 15,
+      "truncatedResponses": 15,
+      "duplicateGoals": 2,
+      "selfCostCompliance": 0.7361111111111112,
+      "participantAccuracy": 0.4444444444444444
+    },
+    "4": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 20,
+      "truncatedResponses": 20,
+      "duplicateGoals": 3,
+      "selfCostCompliance": 0.6527777777777778,
+      "participantAccuracy": 0.3958333333333333
+    }
+  }
+}

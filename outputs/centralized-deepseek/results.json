@@ -1,0 +1,43 @@
+{
+  "model": "deepseek-r1:14b",
+  "mode": "centralized",
+  "thinking": true,
+  "options": {
+    "temperature": 0.6,
+    "num_ctx": 10240,
+    "num_predict": 8192,
+    "top_p": 0.95,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0
+  },
+  "conditions": {
+    "2": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 11,
+      "truncatedResponses": 11,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.06944444444444445,
+      "participantAccuracy": 0.08333333333333333
+    },
+    "3": {
+      "trials": 12,
+      "successes": 2,
+      "invalidResponses": 8,
+      "truncatedResponses": 8,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.2638888888888889,
+      "participantAccuracy": 0.27777777777777773
+    },
+    "4": {
+      "trials": 12,
+      "successes": 1,
+      "invalidResponses": 7,
+      "truncatedResponses": 7,
+      "duplicateGoals": 2,
+      "selfCostCompliance": 0.3611111111111111,
+      "participantAccuracy": 0.25
+    }
+  }
+}

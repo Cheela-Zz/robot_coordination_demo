@@ -1,0 +1,511 @@
+{
+  "id": "family-09-m2-r0",
+  "source": "local-llm",
+  "mode": "centralized",
+  "planHash": "224beb08a138ba8a4bdc675e1d369c3cfccef055bc66218255422fc35edea8ce",
+  "model": "gpt-oss:20b",
+  "scenario": {
+    "width": 17,
+    "height": 13,
+    "obstacles": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        16,
+        3
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        16,
+        6
+      ],
+      [
+        16,
+        7
+      ],
+      [
+        16,
+        8
+      ],
+      [
+        16,
+        9
+      ],
+      [
+        16,
+        10
+      ],
+      [
+        16,
+        11
+      ],
+      [
+        16,
+        12
+      ]
+    ],
+    "robots": [
+      [
+        5,
+        11
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        13,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        5
+      ]
+    ],
+    "goals": [
+      [
+        9,
+        4
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        6,
+        11
+      ]
+    ],
+    "costs": [
+      [
+        11,
+        7,
+        8,
+        6,
+        3,
+        1
+      ],
+      [
+        5,
+        5,
+        10,
+        4,
+        5,
+        7
+      ],
+      [
+        8,
+        4,
+        7,
+        7,
+        2,
+        2
+      ],
+      [
+        5,
+        7,
+        10,
+        8,
+        11,
+        13
+      ],
+      [
+        6,
+        2,
+        5,
+        9,
+        4,
+        4
+      ],
+      [
+        2,
+        2,
+        5,
+        9,
+        8,
+        8
+      ]
+    ],
+    "initial": [
+      3,
+      4,
+      2,
+      0,
+      5,
+      1
+    ],
+    "m": 2,
+    "id": "family-09-m2-r0",
+    "name": "family-09, m=2",
+    "description": "Matched six-robot exchange; unique beneficial reassignment."
+  },
+  "prompt": "Select the goals for all six robots in a single goal-assignment decision. You make the complete assignment yourself in one response.\n\nGoal columns in order: A, B, C, D, E, F\nTravel costs in grid steps (smaller is better):\nA: 11, 7, 8, 6, 3, 1\nB: 5, 5, 10, 4, 5, 7\nC: 8, 4, 7, 7, 2, 2\nD: 5, 7, 10, 8, 11, 13\nE: 6, 2, 5, 9, 4, 4\nF: 2, 2, 5, 9, 8, 8\nInitial goal assignment: A=D, B=E, C=C, D=A, E=F, F=B\n\nRules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to choose all six goals to form such a mutually beneficial exchange. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.\n\nReturn exactly one JSON object containing only \"goals\": an array of six goal letters, in robot order A, B, C, D, E, F. For example {\"goals\":[\"A\",\"B\",\"C\",\"D\",\"E\",\"F\"]}. Allowed goal values: A, B, C, D, E, F. Do not include explanatory text.",
+  "options": {
+    "temperature": 1.0,
+    "num_ctx": 10240,
+    "num_predict": 8192,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 81842
+  },
+  "think": "medium",
+  "startedAt": "2026-09-23T20:44:45.421481+00:00",
+  "status": "completed",
+  "rawContent": "{\"goals\":[\"E\",\"D\",\"C\",\"A\",\"F\",\"B\"]}",
+  "rawResponse": "{\"model\":\"gpt-oss:20b\",\"created_at\":\"2026-09-23T20:46:26.5031428Z\",\"message\":{\"role\":\"assistant\",\"content\":\"{\\\"goals\\\":[\\\"E\\\",\\\"D\\\",\\\"C\\\",\\\"A\\\",\\\"F\\\",\\\"B\\\"]}\",\"thinking\":\"We need to assign goals to six robots (A, B, C, D, E, F) so that each robot gets one unique goal, no repeats. Each robot must have a cost strictly reducing relative to initial cost unless staying unchanged. At least one robot improves. We need a valid assignment.\\n\\nGiven cost matrix for each robot to each goal letter A..F:\\n\\nRow robot A: \\nA:11, B:7, C:8, D:6, E:3, F:1\\n\\nRobot B:\\nA:5, B:5, C:10, D:4, E:5, F:7\\n\\nRobot C:\\nA:8, B:4, C:7, D:7, E:2, F:2\\n\\nRobot D:\\nA:5, B:7, C:10, D:8, E:11, F=13\\n\\nRobot E:\\nA:6, B:2, C:5, D:9, E=4, F=4\\n\\nRobot F:\\nA:2, B:2, C=5, D=9, E=8, F=8\\n\\nInitial assignment:\\nA-\\u003eD\\nB-\\u003eE\\nC-\\u003eC\\nD-\\u003eA\\nE-\\u003eF\\nF-\\u003eB\\n\\nLet's compute initial costs:\\nRobot A to D: cost 6\\nRobot B to E: cost 5\\nRobot C to C: cost 7\\nRobot D to A: cost 5\\nRobot E to F: cost 4\\nRobot F to B: cost 2\\n\\nGoal assignment uniqueness: dict initial: D (A), E (B), C (C), A (D), F (E), B (F). Yes each unique.\\n\\nWe want to find new assignment that respects all constraints:\\n\\n- each robot gets exactly one goal.\\n- each goal assigned to one robot, no duplicates.\\n- each robot's cost strictly less than its initial cost if changed, unchanged if same.\\n- at least one robot improves. (So at least one strictly less)\\n- no robot's cost increases. So for robots staying same, cost unchanged which is allowed.\\n\\nGoal is to produce some assignment. We need to produce only JSON object.\\n\\nWe can attempt to find assignment that gives improvement for some but no costs increase.\\n\\nWe can try to find beneficial exchange: some robots swap cheaper goals. Let's examine each robot's lower-cost options relative to current.\\n\\nRobot A (currently D, cost 6). Lower-cost goals relative to 6: B=7 (higher), C=8 (higher), A=11 (higher), E=3 (lower), F=1 (lower). So potential improved goals: E (cost 3), F (cost 1). Need unique.\\n\\nRobot B (currently E, cost5). Lower-cost options: A=5 (equal), B=5 (equal), C=10 (higher), D=4 (lower), F=7 (higher). So improvement: D cost4; stamping improvement. Replacing E is not improvement because E cost5 same as D? Wait E currently for B cost 5; moving to D cost 4 reduces cost; improvement.\\n\\nRobot C (currently C, cost7). Lower-cost options: A=8 (higher), B=4 (lower), D=7 (equal), E=2 (lower), F=2 (lower). So improvements: B=4, E=2, F=2.\\n\\nRobot D (currently A, cost5). Lower-cost options: B=7 (higher), C=10 (higher), D=8 higher, E=11 higher, F=13 higher. So no improvement potential; D's current A cost5 is lowest? Actually check A cost5 vs B7 \\u003e, C10 \\u003e, D8 \\u003e, E11 \\u003e, F13 \\u003e, so initial D-\\u003eA is best (doesn't need to change). So D cannot improve; can stay same or change to higher cost (not allowed). So D must stay at A to avoid increasing cost.\\n\\nRobot E (currently F, cost4). Lower-cost options: A=6\\u003e4, B=2\\u003c4, C=5\\u003e4, D=9\\u003e4, E=4 same, F=4 same. So improvement: B cost2. So E could switch to B (cost2) improvement.\\n\\nRobot F (currently B, cost2). Lower-cost options: A=2 (equal), B=2 (equal), C=5\\u003e2, D=9\\u003e2, E=8\\u003e2, F=8\\u003e2. So no improvement. F can stay B at cost2.\\n\\nThus potential improvements: robots A (E or F), B (D), C (B,E,F), E (B). We also have robots D (cannot change), F (cannot change). We need an assignment of goals to robots such that each goal unique. Since D is stuck at A, A is taken by D. B is desired by C or E; but B is taken by F currently but could remain at B or could move. It's okay to keep B for F but we need to consider unique. We need each goal unique across all 6 robots. Initially D gets A. So A used. We need assignment for other 5 robots: A,B,C,D,E,F. But D already uses A. So we must assign bits to others: B maybe to F or C/E. But we could keep F to B (unchanged). That's fine. Then E maybe get B? Not allowed because duplicate; so E must not go to B if F stays B. So E must stay at F, or maybe move elsewhere but that would cost increase or equal? E's current F cost 4. Is there any other goal that cost \\u003c=4? Only B cost2, but conflict; maybe E could stay at F cost4, unchanged.\\n\\nSimilarly, C cannot go to B if B taken; could go to E or F. But F ya used by E? Wait F used by E, so cannot assign F to C. E used by?!! careful.\\n\\nLet's just consider assignment possibilities.\\n\\nGoal A is stuck to D. So A taken.\\n\\nPossible assignments for robots:\\n\\nA: E (cost3) or F (1) (improvement)\\nB: currently F uses B? Actually F uses B (cost2). E uses F, but F uses B. So B used by F.\\n\\nC: can have B, E, F. B taken, E maybe used by A or others. But we might keep E used by A? Actually A can use E. That would conflict with C if wants E. So maybe choose C use F (cost2). But F currently used by E. So conflict. Wait F is a goal, used by E? Actually E currently at F; but we could assign C to F if we move E away. But E would need new goal not increasing cost. But E's only improvement viable is B. But B is used by F. So E cannot change. So F remains used by E. Therefore C cannot use F. So C cannot use B, E, F concurrently. B used by F, E maybe reserved for A, F used by E. So C cannot use B/E/F without conflict. So maybe we revert to C staying at C cost7 though no improvement; but the rule says: if any robot changes goals must strictly reduce cost; but staying same is allowed. For assignment, we require each robot has single unique goal. So maybe keep C at C. That uses C. So far used: A by D; B by F; C by C; unknown D/E.\\n\\nLet's attempt assignment:\\nRobot A -\\u003e E (cost3)\\nRobot B -\\u003e D (cost4) (improvement)\\nRobot C -\\u003e C (cost7) unchanged (no improvement)\\nRobot D -\\u003e A (cost5) unchanged\\nRobot E -\\u003e F (cost4) unchanged\\nRobot F -\\u003e B (cost2) unchanged\\n\\nCheck uniqueness:\\nA: D\\nB: F\\nC: C\\nD: A\\nE: F? Wait E assigned to F (goal F). But F (goal F) already taken? No only by E. But we also have 'F' only used by E. Wait A:E uses goal E. B: D uses goal D. C: C uses goal C. D: A uses goal A. E: F uses goal F. F: B uses goal B. Goals: A used by D robot; B used by F robot; C used by C; D used by B robot; E used by A robot; F used by E robot. All unique. Good.\\n\\nBut need to check cost changes: \\nRobot A from D cost 6 to E cost3 (improvement). good.\\nRobot B from E cost5 to D cost4 (improvement). good.\\nRobot C stays at C cost7 unchanged. That's allowed.\\nRobot D stays at A cost5 unchanged. allowed.\\nRobot E stays at F cost4 unchanged. allowed.\\nRobot F stays at B cost2 unchanged. allowed.\\nAt least one robot improves: yes multiple improve.\\n\\nAlso any robot used same goal as before? Not duplicate. So seems valid.\\n\\nLet's check rule: each robot's cost must strictly reduce if change; yes A and B improved. E didn't change, ok. But remain unchanged. No robot increased cost (since all unchanged or lower). So this assignment should be valid.\\n\\nBut double-check: There's further nuance: \\\"If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected\\\". Duplicate none. No cost increased. So valid.\\n\\nEdge: Robot F's cost remains same: cost2 to B unchanged, that's fine even though not improved; at least one improved. Good.\\n\\nNow one more check: Are we allowed for robot A to choose E? Are there any constraints about \\\"each robot mandatory to choose a lower cost option if possible\\\"? The rule: Robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. So okay.\\n\\nNow produce JSON: { \\\"goals\\\": [\\\"E\\\",\\\"D\\\",\\\"C\\\",\\\"A\\\",\\\"F\\\",\\\"B\\\"] }\\n\\nLet's ensure order robot: A, B, C, D, E, F. So:\\n\\nA assigned E\\nB assigned D\\nC assigned C\\nD assigned A\\nE assigned F\\nF assigned B\\n\\nReturn as JSON.\\n\\nCheck final: uniqueness satisfied. So final answer.\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":101055776000,\"load_duration\":2652300,\"prompt_eval_count\":473,\"prompt_eval_cached_count\":0,\"prompt_eval_duration\":145379000,\"eval_count\":2195,\"eval_duration\":31747316999}",
+  "choices": [
+    4,
+    3,
+    2,
+    0,
+    5,
+    1
+  ],
+  "error": null,
+  "rawThinking": "We need to assign goals to six robots (A, B, C, D, E, F) so that each robot gets one unique goal, no repeats. Each robot must have a cost strictly reducing relative to initial cost unless staying unchanged. At least one robot improves. We need a valid assignment.\n\nGiven cost matrix for each robot to each goal letter A..F:\n\nRow robot A: \nA:11, B:7, C:8, D:6, E:3, F:1\n\nRobot B:\nA:5, B:5, C:10, D:4, E:5, F:7\n\nRobot C:\nA:8, B:4, C:7, D:7, E:2, F:2\n\nRobot D:\nA:5, B:7, C:10, D:8, E:11, F=13\n\nRobot E:\nA:6, B:2, C:5, D:9, E=4, F=4\n\nRobot F:\nA:2, B:2, C=5, D=9, E=8, F=8\n\nInitial assignment:\nA->D\nB->E\nC->C\nD->A\nE->F\nF->B\n\nLet's compute initial costs:\nRobot A to D: cost 6\nRobot B to E: cost 5\nRobot C to C: cost 7\nRobot D to A: cost 5\nRobot E to F: cost 4\nRobot F to B: cost 2\n\nGoal assignment uniqueness: dict initial: D (A), E (B), C (C), A (D), F (E), B (F). Yes each unique.\n\nWe want to find new assignment that respects all constraints:\n\n- each robot gets exactly one goal.\n- each goal assigned to one robot, no duplicates.\n- each robot's cost strictly less than its initial cost if changed, unchanged if same.\n- at least one robot improves. (So at least one strictly less)\n- no robot's cost increases. So for robots staying same, cost unchanged which is allowed.\n\nGoal is to produce some assignment. We need to produce only JSON object.\n\nWe can attempt to find assignment that gives improvement for some but no costs increase.\n\nWe can try to find beneficial exchange: some robots swap cheaper goals. Let's examine each robot's lower-cost options relative to current.\n\nRobot A (currently D, cost 6). Lower-cost goals relative to 6: B=7 (higher), C=8 (higher), A=11 (higher), E=3 (lower), F=1 (lower). So potential improved goals: E (cost 3), F (cost 1). Need unique.\n\nRobot B (currently E, cost5). Lower-cost options: A=5 (equal), B=5 (equal), C=10 (higher), D=4 (lower), F=7 (higher). So improvement: D cost4; stamping improvement. Replacing E is not improvement because E cost5 same as D? Wait E currently for B cost 5; moving to D cost 4 reduces cost; improvement.\n\nRobot C (currently C, cost7). Lower-cost options: A=8 (higher), B=4 (lower), D=7 (equal), E=2 (lower), F=2 (lower). So improvements: B=4, E=2, F=2.\n\nRobot D (currently A, cost5). Lower-cost options: B=7 (higher), C=10 (higher), D=8 higher, E=11 higher, F=13 higher. So no improvement potential; D's current A cost5 is lowest? Actually check A cost5 vs B7 >, C10 >, D8 >, E11 >, F13 >, so initial D->A is best (doesn't need to change). So D cannot improve; can stay same or change to higher cost (not allowed). So D must stay at A to avoid increasing cost.\n\nRobot E (currently F, cost4). Lower-cost options: A=6>4, B=2<4, C=5>4, D=9>4, E=4 same, F=4 same. So improvement: B cost2. So E could switch to B (cost2) improvement.\n\nRobot F (currently B, cost2). Lower-cost options: A=2 (equal), B=2 (equal), C=5>2, D=9>2, E=8>2, F=8>2. So no improvement. F can stay B at cost2.\n\nThus potential improvements: robots A (E or F), B (D), C (B,E,F), E (B). We also have robots D (cannot change), F (cannot change). We need an assignment of goals to robots such that each goal unique. Since D is stuck at A, A is taken by D. B is desired by C or E; but B is taken by F currently but could remain at B or could move. It's okay to keep B for F but we need to consider unique. We need each goal unique across all 6 robots. Initially D gets A. So A used. We need assignment for other 5 robots: A,B,C,D,E,F. But D already uses A. So we must assign bits to others: B maybe to F or C/E. But we could keep F to B (unchanged). That's fine. Then E maybe get B? Not allowed because duplicate; so E must not go to B if F stays B. So E must stay at F, or maybe move elsewhere but that would cost increase or equal? E's current F cost 4. Is there any other goal that cost <=4? Only B cost2, but conflict; maybe E could stay at F cost4, unchanged.\n\nSimilarly, C cannot go to B if B taken; could go to E or F. But F ya used by E? Wait F used by E, so cannot assign F to C. E used by?!! careful.\n\nLet's just consider assignment possibilities.\n\nGoal A is stuck to D. So A taken.\n\nPossible assignments for robots:\n\nA: E (cost3) or F (1) (improvement)\nB: currently F uses B? Actually F uses B (cost2). E uses F, but F uses B. So B used by F.\n\nC: can have B, E, F. B taken, E maybe used by A or others. But we might keep E used by A? Actually A can use E. That would conflict with C if wants E. So maybe choose C use F (cost2). But F currently used by E. So conflict. Wait F is a goal, used by E? Actually E currently at F; but we could assign C to F if we move E away. But E would need new goal not increasing cost. But E's only improvement viable is B. But B is used by F. So E cannot change. So F remains used by E. Therefore C cannot use F. So C cannot use B, E, F concurrently. B used by F, E maybe reserved for A, F used by E. So C cannot use B/E/F without conflict. So maybe we revert to C staying at C cost7 though no improvement; but the rule says: if any robot changes goals must strictly reduce cost; but staying same is allowed. For assignment, we require each robot has single unique goal. So maybe keep C at C. That uses C. So far used: A by D; B by F; C by C; unknown D/E.\n\nLet's attempt assignment:\nRobot A -> E (cost3)\nRobot B -> D (cost4) (improvement)\nRobot C -> C (cost7) unchanged (no improvement)\nRobot D -> A (cost5) unchanged\nRobot E -> F (cost4) unchanged\nRobot F -> B (cost2) unchanged\n\nCheck uniqueness:\nA: D\nB: F\nC: C\nD: A\nE: F? Wait E assigned to F (goal F). But F (goal F) already taken? No only by E. But we also have 'F' only used by E. Wait A:E uses goal E. B: D uses goal D. C: C uses goal C. D: A uses goal A. E: F uses goal F. F: B uses goal B. Goals: A used by D robot; B used by F robot; C used by C; D used by B robot; E used by A robot; F used by E robot. All unique. Good.\n\nBut need to check cost changes: \nRobot A from D cost 6 to E cost3 (improvement). good.\nRobot B from E cost5 to D cost4 (improvement). good.\nRobot C stays at C cost7 unchanged. That's allowed.\nRobot D stays at A cost5 unchanged. allowed.\nRobot E stays at F cost4 unchanged. allowed.\nRobot F stays at B cost2 unchanged. allowed.\nAt least one robot improves: yes multiple improve.\n\nAlso any robot used same goal as before? Not duplicate. So seems valid.\n\nLet's check rule: each robot's cost must strictly reduce if change; yes A and B improved. E didn't change, ok. But remain unchanged. No robot increased cost (since all unchanged or lower). So this assignment should be valid.\n\nBut double-check: There's further nuance: \"If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected\". Duplicate none. No cost increased. So valid.\n\nEdge: Robot F's cost remains same: cost2 to B unchanged, that's fine even though not improved; at least one improved. Good.\n\nNow one more check: Are we allowed for robot A to choose E? Are there any constraints about \"each robot mandatory to choose a lower cost option if possible\"? The rule: Robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. So okay.\n\nNow produce JSON: { \"goals\": [\"E\",\"D\",\"C\",\"A\",\"F\",\"B\"] }\n\nLet's ensure order robot: A, B, C, D, E, F. So:\n\nA assigned E\nB assigned D\nC assigned C\nD assigned A\nE assigned F\nF assigned B\n\nReturn as JSON.\n\nCheck final: uniqueness satisfied. So final answer.",
+  "result": {
+    "assignment": [
+      4,
+      3,
+      2,
+      0,
+      5,
+      1
+    ],
+    "requested": [
+      4,
+      3,
+      2,
+      0,
+      5,
+      1
+    ],
+    "success": true,
+    "reason": "All 2 participating robots strictly benefit.",
+    "participants": [
+      0,
+      1
+    ],
+    "gains": [
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "beforeTotal": 29,
+    "afterTotal": 25,
+    "beforeMakespan": 7,
+    "afterMakespan": 7
+  },
+  "durationMs": 101076,
+  "completedAt": "2026-09-23T20:46:26.506010+00:00"
+}

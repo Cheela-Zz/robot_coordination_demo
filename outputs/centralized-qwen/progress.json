@@ -1,0 +1,34 @@
+{
+  "state": "stopped-early",
+  "at": "2026-09-23T09:11:37.762536+00:00",
+  "planHash": "ec4f31aa58c91cf2ee96ea759d410a9563556f04c8685ecdce9d20394533a6c3",
+  "planned": 36,
+  "finished": 13,
+  "conditions": {
+    "2": {
+      "trials": 3,
+      "successes": 0,
+      "invalidResponses": 3,
+      "truncatedResponses": 3,
+      "duplicateGoals": 0,
+      "participantAccuracy": 0.0
+    },
+    "3": {
+      "trials": 5,
+      "successes": 0,
+      "invalidResponses": 5,
+      "truncatedResponses": 5,
+      "duplicateGoals": 0,
+      "participantAccuracy": 0.0
+    },
+    "4": {
+      "trials": 5,
+      "successes": 0,
+      "invalidResponses": 5,
+      "truncatedResponses": 5,
+      "duplicateGoals": 0,
+      "participantAccuracy": 0.0
+    }
+  },
+  "reason": "All finished attempts reached 4096-token limit. Stopped to test other profiles; incomplete cases are not failures."
+}

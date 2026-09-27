@@ -18,7 +18,7 @@ def make_demo(scenario, trace):
     analysis = validate_scenario(scenario)
     result = resolve_choices(scenario, choices)
     return {"schemaVersion": 1, "createdAt": datetime.now(timezone.utc).isoformat(), "scenario": scenario,
-            "analysis": analysis, "run": {"source": "local-llm", "model": trace["model"],
+            "analysis": analysis, "run": {"source": "local-llm", "model": trace["model"], "mode": trace.get("mode", "independent"),
             "trialId": trace["id"], "choices": choices, "result": result},
             "paths": {"before": [shortest_path(scenario, r, goal) for r, goal in enumerate(scenario["initial"])],
                       "after": [shortest_path(scenario, r, goal) for r, goal in enumerate(result["assignment"])]},

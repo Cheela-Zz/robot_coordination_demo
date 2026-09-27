@@ -1,0 +1,33 @@
+{
+  "model": "gpt-oss:20b",
+  "mode": "independent",
+  "conditions": {
+    "2": {
+      "trials": 12,
+      "successes": 3,
+      "invalidResponses": 2,
+      "truncatedResponses": 2,
+      "duplicateGoals": 7,
+      "selfCostCompliance": 0.9027777777777778,
+      "participantAccuracy": 0.875
+    },
+    "3": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 6,
+      "truncatedResponses": 6,
+      "duplicateGoals": 7,
+      "selfCostCompliance": 0.8611111111111112,
+      "participantAccuracy": 0.7222222222222222
+    },
+    "4": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 2,
+      "truncatedResponses": 2,
+      "duplicateGoals": 10,
+      "selfCostCompliance": 0.9305555555555555,
+      "participantAccuracy": 0.7708333333333334
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "model": "gemma4:12b",
+  "mode": "centralized",
+  "thinking": false,
+  "options": {
+    "temperature": 1.0,
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "top_p": 0.95,
+    "top_k": 64
+  },
+  "conditions": {
+    "2": {
+      "trials": 12,
+      "successes": 1,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 3,
+      "participantAccuracy": 0.16666666666666666
+    },
+    "3": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 4,
+      "participantAccuracy": 0.19444444444444442
+    },
+    "4": {
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 1,
+      "participantAccuracy": 0.22916666666666666
+    }
+  }
+}

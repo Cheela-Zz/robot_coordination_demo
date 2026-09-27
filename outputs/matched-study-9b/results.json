@@ -1,0 +1,184 @@
+{
+  "model": "gemma2:9b",
+  "modelDigest": "ff02c3702f322b9e075e9568332d96c0a7028002f1a5a056e0a6784320a4db0b",
+  "planHash": "509fcff08add7043b9724f9b5d73f1ebfc66f8f5d6dd17de26e27a15cd8d6672",
+  "families": 12,
+  "trials": 216,
+  "conditions": {
+    "2": {
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "duplicates": 72,
+      "success": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "participantAccuracy": {
+        "mean": 0.14583333333333334,
+        "low": 0.09722222222222221,
+        "high": 0.20833333333333334,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "nonparticipantAccuracy": {
+        "mean": 0.1423611111111111,
+        "low": 0.11458333333333333,
+        "high": 0.1736111111111111,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "allAgentAccuracy": {
+        "mean": 0.14351851851851852,
+        "low": 0.11805555555555555,
+        "high": 0.17129629629629628,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "realizedSavingFraction": {
+        "mean": 0.0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "greedySuccess": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      }
+    },
+    "3": {
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "duplicates": 72,
+      "success": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "participantAccuracy": {
+        "mean": 0.14351851851851852,
+        "low": 0.11574074074074073,
+        "high": 0.17129629629629628,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "nonparticipantAccuracy": {
+        "mean": 0.16666666666666666,
+        "low": 0.12962962962962962,
+        "high": 0.21759259259259256,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "allAgentAccuracy": {
+        "mean": 0.1550925925925926,
+        "low": 0.13194444444444445,
+        "high": 0.18055555555555555,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "realizedSavingFraction": {
+        "mean": 0.0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "greedySuccess": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      }
+    },
+    "4": {
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "duplicates": 72,
+      "success": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "participantAccuracy": {
+        "mean": 0.16319444444444445,
+        "low": 0.1388888888888889,
+        "high": 0.1875,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "nonparticipantAccuracy": {
+        "mean": 0.1736111111111111,
+        "low": 0.11805555555555555,
+        "high": 0.22916666666666666,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "allAgentAccuracy": {
+        "mean": 0.16666666666666666,
+        "low": 0.1388888888888889,
+        "high": 0.19212962962962962,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "realizedSavingFraction": {
+        "mean": 0.0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "greedySuccess": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      }
+    }
+  },
+  "pairedDifferences": {
+    "success": {
+      "mean": 0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    },
+    "participantAccuracy": {
+      "mean": 0.017361111111111112,
+      "low": -0.041666666666666664,
+      "high": 0.06944444444444445,
+      "note": "95% percentile bootstrap over matched families; exploratory."
+    },
+    "nonparticipantAccuracy": {
+      "mean": 0.03125,
+      "low": -0.04166666666666667,
+      "high": 0.09375,
+      "note": "95% percentile bootstrap over matched families; exploratory."
+    },
+    "allAgentAccuracy": {
+      "mean": 0.023148148148148143,
+      "low": -0.018518518518518517,
+      "high": 0.06249999999999999,
+      "note": "95% percentile bootstrap over matched families; exploratory."
+    },
+    "realizedSavingFraction": {
+      "mean": 0.0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    },
+    "greedySuccess": {
+      "mean": 0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    }
+  },
+  "limitations": [
+    "Exploratory local-model pilot; not a universal causal claim about coordination.",
+    "Exact within-family controls: map/cost matrix, initial total, mean participant gain, cheaper-choice count, one beneficial assignment.",
+    "Residual differences: per-robot costs/gains, makespan and cheaper-choice distribution. Total available saving rises with m.",
+    "Six label rotations are correlated repeated measurements, not six independent scenario families.",
+    "Label rotations and model seeds vary together; this pilot does not separately estimate stochastic and label effects.",
+    "All agents see the full cost table; these results mix game reasoning, instruction-following and joint coordination.",
+    "No collisions, physical robot dynamics, communication, learned policy training or Nash benchmark.",
+    "Families were selected for matchability, not sampled from all possible warehouses."
+  ],
+  "replayTrial": "family-03-m2-r5"
+}

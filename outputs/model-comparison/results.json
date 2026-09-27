@@ -1,0 +1,1111 @@
+{
+  "rows": [
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-all",
+      "m": 2,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 72,
+      "selfCostCompliance": 0.5833333333333334,
+      "participantAccuracy": 0.1597222222222222
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-all",
+      "m": 3,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 72,
+      "selfCostCompliance": 0.5694444444444444,
+      "participantAccuracy": 0.17129629629629628
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-all",
+      "m": 4,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 71,
+      "selfCostCompliance": 0.525462962962963,
+      "participantAccuracy": 0.13194444444444445
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.625,
+      "participantAccuracy": 0.125
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.5277777777777778,
+      "participantAccuracy": 0.19444444444444442
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.40277777777777773,
+      "participantAccuracy": 0.14583333333333334
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "centralized-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.4861111111111111,
+      "participantAccuracy": 0.08333333333333333
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "centralized-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.375,
+      "participantAccuracy": 0.08333333333333333
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "centralized-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.375,
+      "participantAccuracy": 0.14583333333333334
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-all",
+      "m": 2,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 72,
+      "selfCostCompliance": 0.38425925925925924,
+      "participantAccuracy": 0.14583333333333334
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-all",
+      "m": 3,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 72,
+      "selfCostCompliance": 0.3888888888888889,
+      "participantAccuracy": 0.1435185185185185
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-all",
+      "m": 4,
+      "trials": 72,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 72,
+      "selfCostCompliance": 0.39814814814814814,
+      "participantAccuracy": 0.16319444444444445
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.3333333333333333,
+      "participantAccuracy": 0.20833333333333334
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.3611111111111111,
+      "participantAccuracy": 0.1111111111111111
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.375,
+      "participantAccuracy": 0.125
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "centralized-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.4444444444444444,
+      "participantAccuracy": 0.125
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "centralized-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.5416666666666666,
+      "participantAccuracy": 0.1111111111111111
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "centralized-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.6527777777777778,
+      "participantAccuracy": 0.041666666666666664
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 1,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.625,
+      "participantAccuracy": 0.20833333333333334
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.6666666666666666,
+      "participantAccuracy": 0.2222222222222222
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.5833333333333334,
+      "participantAccuracy": 0.1875
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 1,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 3,
+      "selfCostCompliance": 0.8611111111111112,
+      "participantAccuracy": 0.16666666666666666
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 4,
+      "selfCostCompliance": 0.7638888888888888,
+      "participantAccuracy": 0.19444444444444442
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 1,
+      "selfCostCompliance": 0.75,
+      "participantAccuracy": 0.22916666666666666
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "centralized-gpt-oss-medium-8192-v1-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 10,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.9722222222222222,
+      "participantAccuracy": 0.8333333333333334
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "centralized-gpt-oss-medium-8192-v1-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 7,
+      "invalidResponses": 1,
+      "truncatedResponses": 1,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.8611111111111112,
+      "participantAccuracy": 0.7777777777777778
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "centralized-gpt-oss-medium-8192-v1-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 10,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.9722222222222222,
+      "participantAccuracy": 0.9166666666666666
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "centralized-deepseek-thinking-8192-v1-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 11,
+      "truncatedResponses": 11,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.06944444444444445,
+      "participantAccuracy": 0.08333333333333333
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "centralized-deepseek-thinking-8192-v1-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 2,
+      "invalidResponses": 8,
+      "truncatedResponses": 8,
+      "duplicateGoals": 0,
+      "selfCostCompliance": 0.2638888888888889,
+      "participantAccuracy": 0.27777777777777773
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "centralized-deepseek-thinking-8192-v1-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 1,
+      "invalidResponses": 7,
+      "truncatedResponses": 7,
+      "duplicateGoals": 2,
+      "selfCostCompliance": 0.3611111111111111,
+      "participantAccuracy": 0.25
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.4861111111111111,
+      "participantAccuracy": 0.125
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.4444444444444444,
+      "participantAccuracy": 0.16666666666666666
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.4861111111111111,
+      "participantAccuracy": 0.20833333333333334
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 11,
+      "selfCostCompliance": 0.513888888888889,
+      "participantAccuracy": 0.2916666666666667
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 11,
+      "selfCostCompliance": 0.47222222222222227,
+      "participantAccuracy": 0.3055555555555555
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 0,
+      "truncatedResponses": 0,
+      "duplicateGoals": 12,
+      "selfCostCompliance": 0.5,
+      "participantAccuracy": 0.2916666666666667
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 3,
+      "invalidResponses": 2,
+      "truncatedResponses": 2,
+      "duplicateGoals": 7,
+      "selfCostCompliance": 0.9027777777777778,
+      "participantAccuracy": 0.875
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 6,
+      "truncatedResponses": 6,
+      "duplicateGoals": 7,
+      "selfCostCompliance": 0.8611111111111112,
+      "participantAccuracy": 0.7222222222222222
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 2,
+      "truncatedResponses": 2,
+      "duplicateGoals": 10,
+      "selfCostCompliance": 0.9305555555555555,
+      "participantAccuracy": 0.7708333333333334
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "independent-r0",
+      "m": 2,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 21,
+      "truncatedResponses": 21,
+      "duplicateGoals": 1,
+      "selfCostCompliance": 0.6388888888888888,
+      "participantAccuracy": 0.3333333333333333
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "independent-r0",
+      "m": 3,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 15,
+      "truncatedResponses": 15,
+      "duplicateGoals": 2,
+      "selfCostCompliance": 0.7361111111111112,
+      "participantAccuracy": 0.4444444444444444
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "independent-r0",
+      "m": 4,
+      "trials": 12,
+      "successes": 0,
+      "invalidResponses": 20,
+      "truncatedResponses": 20,
+      "duplicateGoals": 3,
+      "selfCostCompliance": 0.6527777777777778,
+      "participantAccuracy": 0.3958333333333333
+    }
+  ],
+  "pairedFailureCounts": [
+    {
+      "model": "gemma2:2b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 36,
+      "non-beneficial move": 0,
+      "no exchange": 0,
+      "token limit": 0,
+      "invalid response": 0
+    },
+    {
+      "model": "gemma2:2b",
+      "mode": "centralized-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 0,
+      "non-beneficial move": 35,
+      "no exchange": 1,
+      "token limit": 0,
+      "invalid response": 0
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 36,
+      "non-beneficial move": 0,
+      "no exchange": 0,
+      "token limit": 0,
+      "invalid response": 0
+    },
+    {
+      "model": "gemma2:9b",
+      "mode": "centralized-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 0,
+      "non-beneficial move": 31,
+      "no exchange": 5,
+      "token limit": 0,
+      "invalid response": 0
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 36,
+      "non-beneficial move": 0,
+      "no exchange": 0,
+      "token limit": 0,
+      "invalid response": 0,
+      "label": "qwen3.5:9b independent"
+    },
+    {
+      "model": "qwen3.5:9b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "trials": 36,
+      "success": 1,
+      "duplicate goals": 0,
+      "non-beneficial move": 29,
+      "no exchange": 6,
+      "token limit": 0,
+      "invalid response": 0,
+      "label": "qwen3.5:9b centralized"
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 34,
+      "non-beneficial move": 2,
+      "no exchange": 0,
+      "token limit": 0,
+      "invalid response": 0,
+      "label": "gemma4:12b independent"
+    },
+    {
+      "model": "gemma4:12b",
+      "mode": "centralized-direct-2048-v1-r0",
+      "trials": 36,
+      "success": 1,
+      "duplicate goals": 8,
+      "non-beneficial move": 23,
+      "no exchange": 4,
+      "token limit": 0,
+      "invalid response": 0,
+      "label": "gemma4:12b centralized"
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 3,
+      "duplicate goals": 24,
+      "non-beneficial move": 0,
+      "no exchange": 0,
+      "token limit": 9,
+      "invalid response": 0,
+      "label": "gpt-oss:20b independent"
+    },
+    {
+      "model": "gpt-oss:20b",
+      "mode": "centralized-gpt-oss-medium-8192-v1-r0",
+      "trials": 36,
+      "success": 27,
+      "duplicate goals": 0,
+      "non-beneficial move": 8,
+      "no exchange": 0,
+      "token limit": 1,
+      "invalid response": 0,
+      "label": "gpt-oss:20b centralized"
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "independent-r0",
+      "trials": 36,
+      "success": 0,
+      "duplicate goals": 6,
+      "non-beneficial move": 0,
+      "no exchange": 0,
+      "token limit": 30,
+      "invalid response": 0,
+      "label": "deepseek-r1:14b independent"
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "mode": "centralized-deepseek-thinking-8192-v1-r0",
+      "trials": 36,
+      "success": 3,
+      "duplicate goals": 2,
+      "non-beneficial move": 5,
+      "no exchange": 0,
+      "token limit": 26,
+      "invalid response": 0,
+      "label": "deepseek-r1:14b centralized"
+    }
+  ],
+  "centralizedMinusIndependentR0": {
+    "2b": {
+      "mean": 0.0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    },
+    "9b": {
+      "mean": 0.0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    }
+  },
+  "m4MinusM2": {
+    "2b": {
+      "mean": 0.0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    },
+    "9b": {
+      "mean": 0.0,
+      "low": null,
+      "high": null,
+      "note": "No between-family variation; percentile interval is uninformative."
+    }
+  },
+  "limits": "Exploratory checks after the initial null result. Centralized outputs and total inference budget differ from independent calls; this does not isolate coordination causally. One rotation per centralized scenario. Models differ in more than parameter count.",
+  "inputs": {
+    "reasoning_check": [
+      "outputs/centralized-qwen-direct",
+      "outputs/centralized-gemma4-direct",
+      "outputs/centralized-gptoss",
+      "outputs/centralized-deepseek"
+    ],
+    "independent_check": [
+      "outputs/independent-qwen-direct",
+      "outputs/independent-gemma4-direct",
+      "outputs/independent-gptoss",
+      "outputs/independent-deepseek"
+    ],
+    "incomplete_check": [
+      "outputs/centralized-qwen",
+      "outputs/centralized-qwen-16k",
+      "outputs/centralized-gemma4",
+      "outputs/centralized-gemma4-lowtemp"
+    ]
+  },
+  "reasoningChecks": [
+    {
+      "model": "qwen3.5:9b",
+      "planHash": "06235fcc169935ef230b740f42f9b7c1e90cdc7af58b27d504c003cad67553cc",
+      "think": false,
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repeat_penalty": 1.0
+      },
+      "conditions": {
+        "2": {
+          "trials": 12,
+          "successes": 1,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.625,
+          "participantAccuracy": 0.20833333333333334
+        },
+        "3": {
+          "trials": 12,
+          "successes": 0,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.6666666666666666,
+          "participantAccuracy": 0.2222222222222222
+        },
+        "4": {
+          "trials": 12,
+          "successes": 0,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.5833333333333334,
+          "participantAccuracy": 0.1875
+        }
+      },
+      "note": "Exploratory centralized condition; sampling settings and output budget differ from Gemma 2."
+    },
+    {
+      "model": "gemma4:12b",
+      "planHash": "f99b973e3e2cfcac884800e51f60e71ccd823b7cfa9ef93aac25357847b0bcdb",
+      "think": false,
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "top_p": 0.95,
+        "top_k": 64
+      },
+      "conditions": {
+        "2": {
+          "trials": 12,
+          "successes": 1,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 3,
+          "selfCostCompliance": 0.8611111111111112,
+          "participantAccuracy": 0.16666666666666666
+        },
+        "3": {
+          "trials": 12,
+          "successes": 0,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 4,
+          "selfCostCompliance": 0.7638888888888888,
+          "participantAccuracy": 0.19444444444444442
+        },
+        "4": {
+          "trials": 12,
+          "successes": 0,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 1,
+          "selfCostCompliance": 0.75,
+          "participantAccuracy": 0.22916666666666666
+        }
+      },
+      "note": "Exploratory centralized condition; sampling settings and output budget differ from Gemma 2."
+    },
+    {
+      "model": "gpt-oss:20b",
+      "planHash": "224beb08a138ba8a4bdc675e1d369c3cfccef055bc66218255422fc35edea8ce",
+      "think": "medium",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 1.0,
+        "top_k": 0,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "conditions": {
+        "2": {
+          "trials": 12,
+          "successes": 10,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.9722222222222222,
+          "participantAccuracy": 0.8333333333333334
+        },
+        "3": {
+          "trials": 12,
+          "successes": 7,
+          "invalidResponses": 1,
+          "truncatedResponses": 1,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.8611111111111112,
+          "participantAccuracy": 0.7777777777777778
+        },
+        "4": {
+          "trials": 12,
+          "successes": 10,
+          "invalidResponses": 0,
+          "truncatedResponses": 0,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.9722222222222222,
+          "participantAccuracy": 0.9166666666666666
+        }
+      },
+      "note": "Exploratory centralized condition; sampling settings and output budget differ from Gemma 2."
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "planHash": "53c12b0418903c181553b986702052aeea2e9d9112d229347be75f9ca187f54b",
+      "think": true,
+      "options": {
+        "temperature": 0.6,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 0.95,
+        "top_k": 0,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "conditions": {
+        "2": {
+          "trials": 12,
+          "successes": 0,
+          "invalidResponses": 11,
+          "truncatedResponses": 11,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.06944444444444445,
+          "participantAccuracy": 0.08333333333333333
+        },
+        "3": {
+          "trials": 12,
+          "successes": 2,
+          "invalidResponses": 8,
+          "truncatedResponses": 8,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.2638888888888889,
+          "participantAccuracy": 0.27777777777777773
+        },
+        "4": {
+          "trials": 12,
+          "successes": 1,
+          "invalidResponses": 7,
+          "truncatedResponses": 7,
+          "duplicateGoals": 2,
+          "selfCostCompliance": 0.3611111111111111,
+          "participantAccuracy": 0.25
+        }
+      },
+      "note": "Exploratory centralized condition; sampling settings and output budget differ from Gemma 2."
+    }
+  ],
+  "extraIndependentChecks": [
+    {
+      "model": "qwen3.5:9b",
+      "planHash": "0c050eaded06c94c5e98e5469d87e84810d1ed62f7da0f01982f29b5d9ba99bd",
+      "centralizedPlanHash": "06235fcc169935ef230b740f42f9b7c1e90cdc7af58b27d504c003cad67553cc",
+      "options": {
+        "temperature": 0.7,
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repeat_penalty": 1.0
+      },
+      "think": false,
+      "m4MinusM2": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "centralizedMinusIndependent": {
+        "mean": 0.027777777777777776,
+        "low": 0.0,
+        "high": 0.08333333333333333,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      }
+    },
+    {
+      "model": "gemma4:12b",
+      "planHash": "0da4d51855647c6bc80e302a12ae0449d99a885311cefe89be9b4cfe8333de80",
+      "centralizedPlanHash": "f99b973e3e2cfcac884800e51f60e71ccd823b7cfa9ef93aac25357847b0bcdb",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 8192,
+        "num_predict": 2048,
+        "top_p": 0.95,
+        "top_k": 64
+      },
+      "think": false,
+      "m4MinusM2": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "centralizedMinusIndependent": {
+        "mean": 0.027777777777777776,
+        "low": 0.0,
+        "high": 0.08333333333333333,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      }
+    },
+    {
+      "model": "gpt-oss:20b",
+      "planHash": "55f92c8dfd1468fdb200333d42f39314840759a8cfa3d80ae2f056beba5c0dc7",
+      "centralizedPlanHash": "224beb08a138ba8a4bdc675e1d369c3cfccef055bc66218255422fc35edea8ce",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 1.0,
+        "top_k": 0,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "think": "medium",
+      "m4MinusM2": {
+        "mean": -0.25,
+        "low": -0.5,
+        "high": 0,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      },
+      "centralizedMinusIndependent": {
+        "mean": 0.6666666666666666,
+        "low": 0.5,
+        "high": 0.8055555555555556,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      }
+    },
+    {
+      "model": "deepseek-r1:14b",
+      "planHash": "e3701d56a98e7e862568c1d0e4b5bf9efc9d39402c7fd72e9a04e1ba3055fca4",
+      "centralizedPlanHash": "53c12b0418903c181553b986702052aeea2e9d9112d229347be75f9ca187f54b",
+      "options": {
+        "temperature": 0.6,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 0.95,
+        "top_k": 0,
+        "min_p": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "think": true,
+      "m4MinusM2": {
+        "mean": 0,
+        "low": null,
+        "high": null,
+        "note": "No between-family variation; percentile interval is uninformative."
+      },
+      "centralizedMinusIndependent": {
+        "mean": 0.08333333333333333,
+        "low": 0.0,
+        "high": 0.2222222222222222,
+        "note": "95% percentile bootstrap over matched families; exploratory."
+      }
+    }
+  ],
+  "incompleteChecks": [
+    {
+      "model": "qwen3.5:9b",
+      "planHash": "ec4f31aa58c91cf2ee96ea759d410a9563556f04c8685ecdce9d20394533a6c3",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 8192,
+        "num_predict": 4096,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repeat_penalty": 1.0
+      },
+      "planned": 36,
+      "finished": 13,
+      "conditions": {
+        "2": {
+          "trials": 3,
+          "successes": 0,
+          "invalidResponses": 3,
+          "truncatedResponses": 3,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        },
+        "3": {
+          "trials": 5,
+          "successes": 0,
+          "invalidResponses": 5,
+          "truncatedResponses": 5,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        },
+        "4": {
+          "trials": 5,
+          "successes": 0,
+          "invalidResponses": 5,
+          "truncatedResponses": 5,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        }
+      },
+      "note": "Stopped early; unfinished cases are not scored. Excluded from matched comparison plot."
+    },
+    {
+      "model": "qwen3.5:9b",
+      "planHash": "472d04d6a739779b0d181ff5b34e249b06e0a30b837436e3d515bc16c9473deb",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 18432,
+        "num_predict": 16384,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repeat_penalty": 1.0
+      },
+      "planned": 36,
+      "finished": 1,
+      "conditions": {
+        "4": {
+          "trials": 1,
+          "successes": 0,
+          "invalidResponses": 1,
+          "truncatedResponses": 1,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        }
+      },
+      "note": "Stopped early; unfinished cases are not scored. Excluded from matched comparison plot."
+    },
+    {
+      "model": "gemma4:12b",
+      "planHash": "cedae98e687b5bcbb26b5b8023731cc983c9f20550ac76e05b75f19b62b818a7",
+      "options": {
+        "temperature": 1.0,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 0.95,
+        "top_k": 64
+      },
+      "planned": 36,
+      "finished": 1,
+      "conditions": {
+        "4": {
+          "trials": 1,
+          "successes": 0,
+          "invalidResponses": 1,
+          "truncatedResponses": 1,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        }
+      },
+      "note": "Stopped early; unfinished cases are not scored. Excluded from matched comparison plot."
+    },
+    {
+      "model": "gemma4:12b",
+      "planHash": "a589fe02e2582d4c3e576e20e00c3aca7858144d83e3ae96063bad0a0db1f78c",
+      "options": {
+        "temperature": 0.2,
+        "num_ctx": 10240,
+        "num_predict": 8192,
+        "top_p": 0.95,
+        "top_k": 64
+      },
+      "planned": 36,
+      "finished": 1,
+      "conditions": {
+        "4": {
+          "trials": 1,
+          "successes": 0,
+          "invalidResponses": 1,
+          "truncatedResponses": 1,
+          "duplicateGoals": 0,
+          "selfCostCompliance": 0.0,
+          "participantAccuracy": 0.0
+        }
+      },
+      "note": "Stopped early; unfinished cases are not scored. Excluded from matched comparison plot."
+    }
+  ]
+}

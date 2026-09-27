@@ -42,12 +42,16 @@ def score_trial(trial, record, plan):
     if record["status"] not in ("completed", "error") or len(record["agents"]) != 6:
         raise ValueError(f"Incomplete trial: {trial['id']}. Resume the runner first.")
     choices = []
+    truncated = 0
     for index, agent in enumerate(record["agents"]):
         if agent["prompt"] != trial["prompts"][index]:
             raise ValueError("Prompt mismatch.")
         if agent["options"] != dict(plan["options"], seed=trial["seed"]+index):
             raise ValueError("Sampling settings mismatch.")
+        if agent.get("think") != plan.get("think"):
+            raise ValueError("Thinking setting mismatch.")
         raw = json.loads(agent["rawResponse"])
+        truncated += raw.get("done_reason") == "length"
         if raw.get("message", {}).get("content") != agent["rawContent"]:
             raise ValueError("Raw response content mismatch.")
         try:
@@ -79,8 +83,11 @@ def score_trial(trial, record, plan):
             "participantAccuracy": correct_participants / len(participants),
             "nonparticipantAccuracy": correct_others / len(others),
             "allAgentAccuracy": target_hits / 6,
+            "selfCostCompliance": sum(g is not None and (g == s["initial"][i] or s["costs"][i][g] < s["costs"][i][s["initial"][i]])
+                                      for i, g in enumerate(choices)) / 6,
             "correctParticipants": correct_participants, "correctNonparticipants": correct_others,
             "invalidResponses": sum(c is None for c in choices),
+            "truncatedResponses": truncated,
             "duplicateGoals": int(valid and len(set(choices)) < 6),
             "initialTotal": result["beforeTotal"], "afterTotal": result["afterTotal"],
             "possibleSaving": analysis["initialTotal"] - analysis["oracleTotal"],

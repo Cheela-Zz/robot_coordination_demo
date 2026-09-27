@@ -217,10 +217,12 @@ def render(data, scale=1, elapsed=None, max_steps=None):
     run = data["run"]
     result = run["result"]
     source = run["source"]
-    source_label = "LOCAL LLM TRIAL"
+    centralized = run.get("mode") == "centralized"
+    source_label = "CENTRALIZED LOCAL LLM" if centralized else "INDEPENDENT LOCAL LLM AGENTS"
     p.rect((0, 0, WIDTH, 12), BLUE)
     p.text((48, 37), "WHEN ROBOTS MUST SWAP TOGETHER", 43, bold=True)
-    p.text((48, 99), "Does coordination become harder when more agents must change together?", 27, MUTED)
+    subtitle = "Centralized planning: one local model chooses all six goals." if centralized else "Does coordination become harder when more agents must change together?"
+    p.fit_text((48, 99), run.get("selectionNote", subtitle), WIDTH - 96, 27, MUTED)
     p.rect((48, 151, 1552, 250), INK, radius=14)
     before = sum(s["costs"][i][g] for i, g in enumerate(s["initial"]))
     after = sum(s["costs"][i][g] for i, g in enumerate(result["assignment"]))

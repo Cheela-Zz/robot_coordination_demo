@@ -16,3 +16,19 @@ Initial goal assignment: {initial}
 Rules: every robot must select exactly one goal. Each goal must be selected by exactly one robot. If any goal is duplicated, any choice is invalid, or any robot's cost increases, the entire proposed reassignment is rejected and all robots keep their initial goals. A valid reassignment executes together. A robot that changes goals must strictly reduce its own cost; a robot that keeps its goal has unchanged cost. At least one robot must improve for a successful exchange. Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost. Staying with your initial goal is allowed. Robot paths visualize assignment costs only; collisions and travel timing are not part of this game.
 
 Return exactly one JSON object containing only your selected goal, for example {{"goal":"A"}}. Allowed goal values: {', '.join(labels)}. Do not choose for other robots and do not include explanatory text."""
+
+
+def build_centralized_prompt(scenario):
+    original = build_agent_prompt(scenario, 0)
+    task = original[original.index("Goal columns"):original.index("\n\nReturn exactly")]
+    task = task.replace(
+        "Your task is to select a goal that can help form such a mutually beneficial exchange while minimizing your travel cost.",
+        "Your task is to choose all six goals to form such a mutually beneficial exchange.")
+    return (
+        "Select the goals for all six robots in a single goal-assignment decision. "
+        "You make the complete assignment yourself in one response.\n\n"
+        + task
+        + '\n\nReturn exactly one JSON object containing only "goals": an array of six goal letters, '
+        'in robot order A, B, C, D, E, F. For example {"goals":["A","B","C","D","E","F"]}. '
+        'Allowed goal values: A, B, C, D, E, F. Do not include explanatory text.'
+    )
